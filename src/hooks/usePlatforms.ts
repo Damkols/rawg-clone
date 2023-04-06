@@ -1,6 +1,6 @@
 import useData from "./useData";
 
-interface PlatformProps {
+export interface PlatformProps {
  id: number;
  name: string;
  slug: string;
