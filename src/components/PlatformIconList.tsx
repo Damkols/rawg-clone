@@ -1,13 +1,5 @@
 import { Platform } from "../hooks/useGames";
-import {
- Card,
- CardBody,
- HStack,
- Heading,
- Icon,
- Image,
- Text,
-} from "@chakra-ui/react";
+import { HStack, Icon } from "@chakra-ui/react";
 import { Game } from "../hooks/useGames";
 import { BsGlobe } from "react-icons/bs";
 
@@ -21,6 +13,7 @@ import {
 } from "react-icons/fa";
 import { MdPhoneIphone } from "react-icons/md";
 import { SiNintendo } from "react-icons/si";
+import { IconType } from "react-icons/lib";
 
 interface PlatformIconProps {
  platforms: Platform[];
